@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="app">
+<h1>🏋️ Workout Timer ⏳</h1>
+
+    <h4 id="exercise-info">Press Start</h4>
+    <div id="timer-container">
+
+        <p id="display">00:00</p>
+        <div id="progress-bar"></div>
+    </div>
+
+
+    <div class="buttons">
+        <button id="start-btn">▶️ Start</button>
+    </div>
+
+    <div id="settings">
+        <h3>⚙️ Customize Workout</h3>
+        <label>Exercise Duration (sec): <input id="exercise-duration" type="number" value="60"></label>
+        <label>Break Duration (sec): <input id="break-duration" type="number" value="30"></label>
+        <label>Rounds: <input id="rounds" type="number" value="3"></label>
+        <button id="apply-settings">Apply</button>
+    </div>
+
+</div>
+
+<script src="dist/index.js"></script>
+</body>
+</html>
